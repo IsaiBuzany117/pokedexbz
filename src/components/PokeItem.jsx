@@ -32,7 +32,7 @@ const PokeItem = ({ url }) => {
   return (
     <>
       <li
-        className="flex flex-col justify-center w-48 bg-slate-200 shadow shadow-slate-500/50 rounded-3xl transition ease-out hover:animate-pulse hover:scale-95 cursor-pointer"
+        className="flex flex-col justify-center w-48 sm:col-span-6 md:col-span-3 lg:col-span-1 bg-slate-200 shadow shadow-slate-500/50 rounded-3xl transition ease-out hover:animate-pulse hover:scale-95 cursor-pointer"
         onClick={openModal}
       >
         <div className="flex justify-center">

@@ -24,7 +24,7 @@ function App() {
   };
 
   return (
-    <div className="h-screen">
+    <div className="h-screen w-screen">
       <header className="flex justify-center h-48">
         <SiPokemon className="w-64 h-64 text-rose-500" />
       </header>
