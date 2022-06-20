@@ -1,11 +1,11 @@
-@import url(//db.onlinewebfonts.com/c/51ba22ae06790efd464bde752a2cd9d1?family=Flexo);
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base{
   html{
-    font-family: Flexo;
+    font-family: Exo;
   }
 }
 /* body {
